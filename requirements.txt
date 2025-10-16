@@ -1,0 +1,27 @@
+# Core dependencies
+ultralytics>=8.0.0
+torch>=1.13.0
+torchvision>=0.14.0
+opencv-python>=4.7.0
+pillow>=9.0.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# Web interface
+streamlit>=1.25.0
+
+# Configuration and utilities
+pyyaml>=6.0
+requests>=2.28.0
+pathlib2>=2.3.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
+mypy>=1.0.0
+
+# Optional: For better performance
+# torch-audio>=0.13.0  # Uncomment if using audio features
+# tensorboard>=2.10.0  # Uncomment for training visualization
